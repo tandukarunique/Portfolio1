@@ -1,6 +1,11 @@
-import React from "react";
-function Pre(props) {
-  return <div id={props.load ? "preloader" : "preloader-none"}></div>;
-}
+import PreSvg from '../assets/pre.svg';
+
+const Pre = () => {
+  return (
+    <div>
+      <img src={PreSvg} alt="Pre SVG" />
+    </div>
+  );
+};
 
 export default Pre;
