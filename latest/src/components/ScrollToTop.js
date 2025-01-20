@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { createRoot } from "react-dom/client";
 import { useLocation } from "react-router-dom";
 
 function ScrollToTop() {
